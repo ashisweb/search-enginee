@@ -6,9 +6,9 @@ export const NewYearBanner = () => {
   if (!isVisible) return null;
 
   return (
-    <div className="relative bg-gradient-to-r from-primary to-secondary p-4 text-white">
+    <div className="relative bg-gradient-to-r from-[#F97316] to-[#FEC6A1] p-4 text-white">
       <div className="container mx-auto text-center">
-        <p className="animate-float font-semibold text-lg md:text-xl">
+        <p className="animate-bounce font-semibold text-lg md:text-xl">
           🎉 Happy New Year 2025! 🎊
         </p>
         <button
