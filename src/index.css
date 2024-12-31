@@ -73,9 +73,11 @@
   width: 100% !important;
   height: 100% !important;
   margin: 0 !important;
-  padding: 1rem !important;
-  background-color: white !important;
+  padding: 2rem !important;
+  background-color: #fff !important;
   z-index: 1000 !important;
+  overflow-y: auto !important;
+  backdrop-filter: none !important;
 }
 
 .gsc-results-wrapper-visible {
@@ -83,6 +85,14 @@
   opacity: 1 !important;
   visibility: visible !important;
   animation: none !important;
+}
+
+.gsc-results {
+  width: 100% !important;
+  max-width: 800px !important;
+  margin: 0 auto !important;
+  padding: 20px !important;
+  background: white !important;
 }
 
 @media (max-width: 768px) {

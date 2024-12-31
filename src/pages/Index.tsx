@@ -9,7 +9,7 @@ const Index = () => {
       
       <main className="container mx-auto pt-12 md:pt-24 px-4">
         <div className="text-center mb-12">
-          <div className="flex items-center justify-center gap-2 mb-4">
+          <div className="inline-flex items-center justify-center gap-2 mb-4">
             <Search className="w-8 h-8 md:w-12 md:h-12 text-[#F97316]" />
             <h1 className="text-4xl md:text-6xl font-bold text-[#F97316]">
               enginee.online
